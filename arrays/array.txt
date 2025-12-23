@@ -1,0 +1,9 @@
+list of items of same dataType
+
+definining an array(1)
+type[] arrayName = new type[size];
+int[] marks = new int[3];
+
+
+definining an array(2)
+type[] arrayname = {1,2,3,4,5,6,....}
