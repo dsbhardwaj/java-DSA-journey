@@ -1,0 +1,10 @@
+block of code 
+takes input perform operation and gives output
+
+ public static retrunType functionName(type arg1 , type arg2...){
+  operation
+}
+
+
+returnType = void (No return)
+public static -> keywords 
