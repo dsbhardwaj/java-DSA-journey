@@ -11,14 +11,26 @@ public class ZeroestoEnd{
             
             //move zeroes to end 
         
-            int zeroPointer =  -1;
-            int nonZero = 0;
-            for(int i = 0; i < arr.length ; i++){
-                if(arr[i] == 0){
-                    zeroPointer = i;
-            }if()
-
+            int write =  0;
+            
+            for(int i = 0 ; i<arr.length ; i++){
+                if(arr[i] != 0){
+                int temp = arr[i];
+                arr[i] = arr[write];
+                arr[write] = temp; 
+                write++;
+                
+                
+                }
             }
+
+            for(int i = 0 ; i< arr.length ; i++){
+                System.out.println(arr[i]);
+            }
+
+                
+
+            
 
       
         }
