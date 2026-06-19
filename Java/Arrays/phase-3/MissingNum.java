@@ -14,7 +14,7 @@ public class MissingNum{
      int sum = 0;
      int actualSum = 0;
     for(int i = 1 ; i <= n+1 ; i++){
-        sum = sum + i;
+        sum = i*(i+1)/2;
         }
     for(int i = 0 ; i<arr.length ; i++){
         actualSum = actualSum + arr[i];
