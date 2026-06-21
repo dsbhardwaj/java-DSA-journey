@@ -11,7 +11,7 @@ public class vowels{
         System.out.println(str.charAt(i));
 
         char ch = str.charAt(i);
-        if( ch == 'A' || ch == 'E'|| ch == 'I'|| ch == 'O' || ch == 'U'){
+        if( ch == 'A' ||ch == 'a' || ch == 'E'||ch == 'e'|| ch == 'I'||ch =='i' ||ch == 'O' || ch == 'o'|| ch == 'U'|| ch == 'u'){
             count++;
         }
 
