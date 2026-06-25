@@ -1,66 +1,106 @@
 # Java DSA Journey 🚀
 
-## Overview
+This repository contains my Data Structures and Algorithms (DSA) practice in Java.
 
-This repository contains my Java programming and Data Structures & Algorithms (DSA) practice.
+## About
 
-I am using this repository to strengthen my problem-solving skills, improve my understanding of core programming concepts, and prepare for coding interviews, internships, and placements.
+I am learning DSA from the ground up and solving problems by focusing on logic, problem-solving patterns, and clean implementations rather than memorizing solutions.
 
-The repository is organized topic-wise, with solutions ranging from beginner-level problems to more advanced DSA concepts.
+The goal of this repository is to:
+
+* Build strong problem-solving skills
+* Prepare for coding interviews and placements
+* Learn DSA patterns systematically
+* Track my progress over time
 
 ---
 
 ## Topics Covered
 
-### Java Fundamentals
-
-* Variables and Data Types
-* Input/Output using Scanner
-* Operators
-* Conditional Statements (`if`, `if-else`)
-* Loops (`for`, `while`)
-* Nested Loops
-* Pattern Problems
-
-### Number-Based Problems
-
-* Count Digits
-* Sum of Digits
-* Reverse a Number
-* Palindrome Number
-* Odd/Even Checks
-
-### Methods
-
-* Method Creation
-* Parameters and Arguments
-* Return Values
-* Method Overloading
-* Methods Calling Methods
-
 ### Arrays
 
-* Array Creation
-* Traversal
-* Sum of Elements
-* Maximum Element
-* Minimum Element
-* Linear Search
-* Counting Problems
+* Array Traversal
+* Largest Element
+* Second Largest Element
+* Check Sorted Array
+* Move Zeroes to End
+* Left Rotation
+* Missing Number
+* Maximum Consecutive Ones
+* Single Number (XOR)
+* Union of Sorted Arrays
+* Intersection of Sorted Arrays
+
+### Strings
+
+* Count Vowels
+* Count Consonants
+* Count Digits
+* Count Uppercase & Lowercase Characters
+* Reverse String
+* Palindrome Check
+* Character Frequency
+* Count Words in a String
+* First Non-Repeating Character
+* Most Frequent Character
+* Anagram Check
+
+### HashMap
+
+* Frequency Counting
+* First Non-Repeating Character
+* Most Frequent Character
+* Anagram Validation
 
 ### Upcoming Topics
 
-* Strings
-* Sorting Algorithms
-* Searching Algorithms
+* Sliding Window
+* Binary Search
 * Recursion
-* Object-Oriented Programming
-* Linked Lists
-* Stacks
-* Queues
+* Linked List
+* Stack
+* Queue
 * Trees
+* Heap
 * Graphs
 * Dynamic Programming
+
+---
+
+## Technologies Used
+
+* Java
+* VS Code
+* Git & GitHub
+
+---
+
+## Learning Approach
+
+For every problem, I focus on:
+
+1. Understanding the brute-force solution
+2. Identifying patterns
+3. Optimizing time complexity
+4. Writing the solution myself
+5. Debugging independently
+6. Documenting key learnings
+
+---
+
+## Progress Tracker
+
+Current Focus:
+
+* HashMap Patterns ✅
+* String Problems ✅
+* Sliding Window (Next)
+
+Target:
+
+* Complete Core DSA
+* Solve 200+ LeetCode Problems
+* Become Placement Ready
 
 ---
 
@@ -69,58 +109,17 @@ The repository is organized topic-wise, with solutions ranging from beginner-lev
 ```text
 Java-DSA/
 │
-├── Basics/
-├── Loops/
-├── Patterns/
-├── Number-Problems/
-├── Methods/
 ├── Arrays/
 ├── Strings/
-├── Recursion/
-├── Sorting/
-└── DSA-Practice/
+├── HashMap/
+├── SlidingWindow/
+├── BinarySearch/
+├── LinkedList/
+├── Stack/
+├── Queue/
+├── Trees/
+└── Graphs/
 ```
-
----
-
-## Goals
-
-* Build strong problem-solving skills
-* Master Java fundamentals
-* Learn Data Structures and Algorithms
-* Prepare for coding interviews and placements
-* Solve problems consistently and track progress
-
----
-
-## Progress
-
-* [x] Java Basics
-* [x] Loops
-* [x] Number Problems
-* [x] Methods
-* [ ] Arrays
-* [ ] Strings
-* [ ] Recursion
-* [ ] Sorting
-* [ ] Searching
-* [ ] OOP
-* [ ] Advanced DSA
-
----
-
-## Tech Stack
-
-* Java
-* VS Code
-* Git
-* GitHub
-
----
-
-## Note
-
-This repository is a record of my learning journey. Solutions may evolve over time as I learn better approaches and more efficient algorithms.
 
 ---
 
@@ -128,4 +127,4 @@ This repository is a record of my learning journey. Solutions may evolve over ti
 
 **Drishti Bhardwaj**
 
-B.Tech CSE Student | Java & DSA Learner
+Learning DSA one problem at a time and building consistency every day.
