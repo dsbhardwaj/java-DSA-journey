@@ -18,22 +18,23 @@ public class distinctElement{
         HashMap<Integer, Integer>map = new HashMap <>();
         int end = 0;
         int start = 0;
-        for( end = 0 ; end < k ; end++){
-           if(map.containsKey(arr[end] )== true){
-            int  frequency = map.get(arr[end]);
+        for( int i = 0 ; i < k ; i++){
+           if(map.containsKey(arr[i] )== true){
+            int  frequency = map.get(arr[i]);
             frequency = frequency + 1 ;
-            map.put(arr[end] , frequency);
+            map.put(arr[i] , frequency);
            }else{
-            map.put(arr[end] , 1);
+            map.put(arr[i] , 1);
            }
         }
            System.out.println(map);
            System.out.println(map.size());
-           
-           int windowSize = end -start + 1 ;
-
-           if(windowSize == k){
     
+
+        for( end = k; end < arr.length ; end++){
+
+        
+     
             if(map.containsKey(arr[start]) == true && map.get(arr[start]) > 1){
                 int freq = map.get(arr[start]);
                  freq = freq - 1;
@@ -42,14 +43,16 @@ public class distinctElement{
                     map.remove(arr[start]);
                 }
                 start++;
-            if(map.containsKey(arr[end + 1]) == true){
-                int freqEnd = map.get(arr[end + 1]);
+            if(map.containsKey(arr[end]) == true){
+                int freqEnd = map.get(arr[end]);
                 freqEnd = freqEnd + 1;
-                map.put(arr[end+1] , freqEnd);
+                map.put(arr[end] , freqEnd);
             }else{
-                map.put(arr[end+1] , 1);
+                map.put(arr[end] , 1);
             }
-           }
+            System.out.println(map);
+           System.out.println(map.size());
         
             }
+}
 }
