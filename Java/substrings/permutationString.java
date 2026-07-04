@@ -12,14 +12,7 @@ public class permutationString{
         HashMap<Character , Integer> map1 = new HashMap<>();
 
         for(int i = 0 ; i < s1.length() ; i++){
-            if(map1.containsKey(s1.charAt(i)) == false ){
-                map1.put(s1.charAt(i), 1);
-            }else{
-                int freq = map1.get(s1.charAt(i));
-                freq = freq + 1 ;
-                map1.put(s1.charAt(i) , freq);
-
-            }           
+         map1.put(s1.charAt(i) , map1.getOrDefault(s1.charAt(i) ,0 ) + 1);       
         }
 
         HashMap<Character , Integer > map2 = new HashMap<>();
