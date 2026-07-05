@@ -23,22 +23,29 @@ public class minnimumSubstring{
             
             if( map.containsKey(s.charAt(end)) == true){
                 if(map.get(s.charAt(end)) > 0){
-                    required --;
                     map.put(s.charAt(end), map.getOrDefault(s.charAt(end), 0) - 1);
+                    required --;
+                }else {
+                    map.put(s.charAt(end), map.getOrDefault(s.charAt(end), 0) -1 );
                 }
             }
-        while(map.get(s.charAt(end)) <= 0){
-            map.put(s.charAt(end) , map.getOrDefault(s.charAt(end), 0) - 1);
-        }
-        while(required == 0){
-            if(map.get(s.charAt(end)) < 0){
-                map.put(s.charAt(start), map.getOrDefault(s.charAt(start), 0) + 1);
+            //Shrinking the window...
+            while(required == 0){
+                if(map.containsKey(s.charAt(start)) == true){
+                    map.put(s.charAt(start), map.getOrDefault(s.charAt(start), 0) + 1);
+                    }
+                if(map.get(s.charAt(start)) > 0){
+                    required++;
+                }
+                start++;
+                int currentWindow = end - start + 1;
+                minLength = Math.min(currentWindow, minLength);
             }
-            start++;
         }
-        minLength = end - start + 1 ;
-        }
-        System.out.println(minLength);
-        }
+            System.out.println(minLength);
+    }
+
+
 }
+        
 
