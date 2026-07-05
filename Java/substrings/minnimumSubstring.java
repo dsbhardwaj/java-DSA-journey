@@ -33,13 +33,19 @@ public class minnimumSubstring{
             while(required == 0){
                 if(map.containsKey(s.charAt(start)) == true){
                     map.put(s.charAt(start), map.getOrDefault(s.charAt(start), 0) + 1);
-                    }
+                    
+
                 if(map.get(s.charAt(start)) > 0){
                     required++;
+                
+                }
+            }
+                int currentWindow = end - start + 1;
+                if(currentWindow < minLength){
+                    minLength = currentWindow;
                 }
                 start++;
-                int currentWindow = end - start + 1;
-                minLength = Math.min(currentWindow, minLength);
+                
             }
         }
             System.out.println(minLength);
