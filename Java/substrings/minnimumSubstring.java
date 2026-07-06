@@ -9,46 +9,44 @@ public class minnimumSubstring{
         System.out.println("Enter String t:");
         String t = sc.nextLine();
 
-        HashMap<Character , Integer> map = new HashMap<> () ;
+        HashMap<Character , Integer> map1 = new HashMap<> ();
         for(int i = 0 ; i < t.length() ; i++){
-            map.put(t.charAt(i) , map.getOrDefault(t.charAt(i) , 0 ) + 1);
+            char ch = t.charAt(i);
+            map1.put(ch , map1.getOrDefault(ch, 0)+1);
         }
 
-        int end = 0;
-        int start = 0 ;
         int required = t.length();
+        int end = 0;
+        int start = 0;
         int minLength = 0;
+        int minStart = 0;
         
-        for(end = 0 ; end < s.length(); end++){
-            
-            if( map.containsKey(s.charAt(end)) == true){
-                if(map.get(s.charAt(end)) > 0){
-                    map.put(s.charAt(end), map.getOrDefault(s.charAt(end), 0) - 1);
-                    required --;
-                }else {
-                    map.put(s.charAt(end), map.getOrDefault(s.charAt(end), 0) -1 );
-                }
-            }
-            //Shrinking the window...
-            while(required == 0){
-                if(map.containsKey(s.charAt(start)) == true){
-                    map.put(s.charAt(start), map.getOrDefault(s.charAt(start), 0) + 1);
-                    
 
-                if(map.get(s.charAt(start)) > 0){
-                    required++;
-                
+        //Expanding the Window
+        for(end = 0 ; end < s.length() ; end++){
+            char ch = s.charAt(end);
+            if(map1.containsKey(ch)){
+                if(map1.get(ch) > 0){
+                required --;
                 }
+                map1.put(ch, map1.getOrDefault(ch , 0) - 1);
             }
-                int currentWindow = end - start + 1;
-                if(currentWindow < minLength){
-                    minLength = currentWindow;
-                }
-                start++;
+
+            //Shrinking the loop
+            while(required == 0){
+                char st = s.charAt(start);
+                int currentBest = end - start + 1;
+                if(map1.containsKey(st)){
+                    map1.put(st, map1.getOrDefault(st , 0) + 1);
+                    if(map1.get(st) > 0){
+                        required++;
+                    }
                 
+                }  
+                start++;      
             }
         }
-            System.out.println(minLength);
+    
     }
 
 
