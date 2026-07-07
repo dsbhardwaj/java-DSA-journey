@@ -16,7 +16,7 @@ public class binarySearch{
         boolean isSorted = true ;
         //check if sorted
         for(int i = 0 ; i < arr.length - 1; i++){
-            if(arr[i] < arr[i+1]){
+            if(arr[i] <= arr[i+1]){
                 isSorted = true;
             }else{
                 isSorted = false;
@@ -37,8 +37,9 @@ public class binarySearch{
                     System.out.println("Target found at index: " + mid);
                     break;
                 }
+            }
                     System.out.println("Target Not Found");
                 
-        }
+        
     }
 }
