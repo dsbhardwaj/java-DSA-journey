@@ -5,7 +5,7 @@ public class sumRows{
             for(int j = 0 ; j < matrix[i].length ; j++){
                 sum += matrix[i][j];
             }
-                System.out.print(sum);
+                System.out.println(sum);
             }
         
     
