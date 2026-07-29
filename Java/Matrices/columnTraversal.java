@@ -11,8 +11,8 @@ public class columnTraversal{
              }
       }     
     int i = 0;
-      for(int j = 0 ; j < matrix.length; j++){
-        for( i = 0 ; i < matrix[i].length ; i++){
+      for(int j = 0 ; j < matrix[0].length; j++){
+        for( i = 0 ; i < matrix.length ; i++){
             System.out.print(matrix[i][j]);
         }
         System.out.println();
