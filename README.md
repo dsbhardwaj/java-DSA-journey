@@ -1,130 +1,155 @@
-# Java DSA Journey 🚀
+# 🚀 Java DSA Journey
 
-This repository contains my Data Structures and Algorithms (DSA) practice in Java.
+Welcome to my **Java DSA Journey** repository! 👋
 
-## About
+This repository documents my journey of learning **Data Structures & Algorithms in Java** from the fundamentals to interview-level problem solving.
 
-I am learning DSA from the ground up and solving problems by focusing on logic, problem-solving patterns, and clean implementations rather than memorizing solutions.
+The goal is not just to solve problems, but to deeply understand algorithms, improve problem-solving skills, and prepare for coding interviews.
 
-The goal of this repository is to:
+---
 
+## 📌 Goals
+
+* Master Java fundamentals
 * Build strong problem-solving skills
-* Prepare for coding interviews and placements
-* Learn DSA patterns systematically
-* Track my progress over time
+* Learn Data Structures & Algorithms from scratch
+* Solve LeetCode problems consistently
+* Prepare for technical interviews
+* Maintain discipline through daily coding
 
 ---
 
-## Topics Covered
+## 🛣️ Roadmap
 
-### Arrays
+### ✅ Java Fundamentals
 
-* Array Traversal
-* Largest Element
+* Variables & Data Types
+* Operators
+* Control Flow
+* Loops
+* Methods
+* Arrays
+* Strings
+* Object-Oriented Programming
+
+### ✅ Arrays
+
+* Traversal
+* Searching
+* Maximum & Minimum
 * Second Largest Element
-* Check Sorted Array
-* Move Zeroes to End
-* Left Rotation
-* Missing Number
-* Maximum Consecutive Ones
-* Single Number (XOR)
-* Union of Sorted Arrays
-* Intersection of Sorted Arrays
-
-### Strings
-
-* Count Vowels
-* Count Consonants
-* Count Digits
-* Count Uppercase & Lowercase Characters
-* Reverse String
-* Palindrome Check
-* Character Frequency
-* Count Words in a String
-* First Non-Repeating Character
-* Most Frequent Character
-* Anagram Check
-
-### HashMap
-
-* Frequency Counting
-* First Non-Repeating Character
-* Most Frequent Character
-* Anagram Validation
-
-### Upcoming Topics
-
+* Rotation
+* Prefix Sum
+* Two Pointers
 * Sliding Window
-* Binary Search
-* Recursion
-* Linked List
-* Stack
-* Queue
-* Trees
-* Heap
-* Graphs
-* Dynamic Programming
+
+### ✅ Binary Search
+
+* Classic Binary Search
+* Binary Search on Answer
+* Search Space Problems
+* Interview Patterns
+
+### 🚧 Matrices
+
+* Matrix Traversal
+* Row & Column Operations
+* Diagonals
+* Transpose
+* Matrix Rotation
+* Spiral Traversal
+
+### ⏳ Strings
+
+* Character Arrays
+* Frequency Counting
+* Two Pointers
+* Sliding Window
+* Pattern Matching
+
+### ⏳ Linked Lists
+
+### ⏳ Stacks
+
+### ⏳ Queues
+
+### ⏳ Trees
+
+### ⏳ Binary Search Trees
+
+### ⏳ Heaps
+
+### ⏳ Hashing
+
+### ⏳ Graphs
+
+### ⏳ Dynamic Programming
 
 ---
 
-## Technologies Used
-
-* Java
-* VS Code
-* Git & GitHub
-
----
-
-## Learning Approach
-
-For every problem, I focus on:
-
-1. Understanding the brute-force solution
-2. Identifying patterns
-3. Optimizing time complexity
-4. Writing the solution myself
-5. Debugging independently
-6. Documenting key learnings
-
----
-
-## Progress Tracker
-
-Current Focus:
-
-* HashMap Patterns ✅
-* String Problems ✅
-* Sliding Window (Next)
-
-Target:
-
-* Complete Core DSA
-* Solve 200+ LeetCode Problems
-* Become Placement Ready
-
----
-
-## Repository Structure
+## 📂 Repository Structure
 
 ```text
-Java-DSA/
+Java-DSA-Journey/
 │
+├── Java Fundamentals/
 ├── Arrays/
+├── Binary Search/
+├── Matrices/
 ├── Strings/
-├── HashMap/
-├── SlidingWindow/
-├── BinarySearch/
-├── LinkedList/
-├── Stack/
-├── Queue/
+├── Linked Lists/
+├── Stacks/
+├── Queues/
 ├── Trees/
-└── Graphs/
+├── Graphs/
+└── Dynamic Programming/
 ```
 
 ---
 
-## Author
+## 💻 Language
 
-**Drishti Bhardwaj**
+* Java
 
-Learning DSA one problem at a time and building consistency every day.
+---
+
+## 📚 Practice Platforms
+
+* LeetCode
+* GeeksforGeeks
+
+---
+
+## 🎯 Learning Philosophy
+
+I believe that memorizing solutions is not enough.
+
+This repository focuses on:
+
+* Understanding the intuition behind algorithms
+* Recognizing patterns
+* Writing clean Java code
+* Optimizing solutions step by step
+* Building strong problem-solving skills
+
+---
+
+## 📈 Progress
+
+* ✅ Java Fundamentals
+* ✅ Arrays
+* ✅ Binary Search
+* 🚧 Matrices
+* ⏳ Strings
+* ⏳ Linked Lists
+* ⏳ Stacks
+* ⏳ Queues
+* ⏳ Trees
+* ⏳ Graphs
+* ⏳ Dynamic Programming
+
+---
+
+## ⭐ Connect
+
+If you find this repository helpful, consider giving it a ⭐.
