@@ -5,9 +5,9 @@ public class multiplication{
         }
         int[][] result = new int[A.length][B[0].length];
 
-        for(int i = 0 ; i < A[0].length ; i++){
-            for(int j = 0 ; j < B.length ; j++){
-                for(int k = 0 ; k<A.length ; k++){
+        for(int i = 0 ; i < A.length ; i++){
+            for(int j = 0 ; j < B[0].length ; j++){
+                for(int k = 0 ; k<A[0].length ; k++){
                     result[i][j] += A[i][k] * B[k][j];
                 }
             }
