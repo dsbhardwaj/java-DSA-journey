@@ -2,7 +2,7 @@
 
 public class rowWiseSorted{
     public boolean  search( int arr[][] , int target){
-        int i = 0 ;
+        for(int i = 0 ; i < arr.length ; i++){
         int start = 0 ;
         int end = arr[0].length - 1;
             while(start <= end){
@@ -12,14 +12,11 @@ public class rowWiseSorted{
                 
             }else if (arr[i][mid] < target){
                 start = mid + 1 ;
-            }else if(arr[i][mid] > target ){
+            }else{
                 end = mid - 1 ;
             }
-                i++;
-            
-
         }
-        return false ;
-
     }
+    return false ;
+}
 }
